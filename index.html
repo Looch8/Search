@@ -5,23 +5,35 @@
 		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
 		<title>Search</title>
 		<link href="styles.css" rel="stylesheet" />
+
+		<!-- Font -->
+		<link rel="preconnect" href="https://fonts.googleapis.com" />
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+		<link
+			href="https://fonts.googleapis.com/css2?family=PT+Sans:ital,wght@0,400;0,700;1,400;1,700&display=swap"
+			rel="stylesheet"
+		/>
 	</head>
 	<body>
 		<!-- Google search bar -->
 		<div>
+			<h1>Searchle</h1>
 			<form action="https://www.google.com/search">
-				<input class="search_bar" type="text" name="q" />
+				<input id="search_bar" type="text" name="q" />
 				<div class="submit_btn-container">
 					<input
 						class="submit-btn"
 						type="submit"
-						value="Goodle Search"
+						value="Google Search"
 					/>
-					<input
-						class="submit-btn"
-						type="submit"
-						value="I'm Feeling Lucky"
-					/>
+					<form action="https://www.google.com/doodles.google/">
+						<input
+							class="submit-btn"
+							type="submit"
+							value="I'm Feeling Lucky"
+							name="q"
+						/>
+					</form>
 				</div>
 			</form>
 		</div>

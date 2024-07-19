@@ -8,15 +8,19 @@ body {
 	align-items: center;
 }
 
-.search_bar {
-	background-color: aqua;
+/* SEARCH PAGE */
+
+#search_bar {
 	padding: 10px;
 	width: 400px;
 	border-radius: 10%;
 }
 
+#search_bar:hover {
+	cursor: text;
+}
+
 .submit-btn {
-	background-color: red;
 	padding: 10px;
 	margin-top: 15px;
 	border-radius: 10px;
@@ -29,9 +33,13 @@ body {
 	justify-content: center;
 }
 
-/* .search_bar {
-	display: flex;
-	justify-content: center;
-	align-items: center;
-	position: relative;
-} */
+h1 {
+	text-align: center;
+	font-family: "PT Sans", sans-serif;
+	font-size: 62px;
+	margin-bottom: 20px;
+}
+
+input:hover {
+	cursor: pointer;
+}
